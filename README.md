@@ -1,4 +1,4 @@
-O código em questão é um programa simples em C para gerenciar um "Caderno de Receitas". O objetivo é permitir que o usuário armazene, visualize, busque, adicione e remova receitas de culinária. Ele utiliza uma lista encadeada para armazenar as receitas e oferece as funcionalidades de salvar e carregar as receitas de/para um arquivo binário, para persistência dos dados.
+O código em questão é um programa simples em C para gerenciar um "Livro de Receitas". O objetivo é permitir que o usuário armazene, visualize, busque, adicione e remova receitas de culinária. Ele utiliza uma lista encadeada para armazenar as receitas e oferece as funcionalidades de salvar e carregar as receitas de/para um arquivo binário, para persistência dos dados.
 
 O sistema permite ao usuário adicionar receitas com seus ingredientes e modos de preparo, listar todas as receitas armazenadas, buscar por uma receita específica, remover receitas pelo nome e salvar ou carregar as receitas em/para um arquivo. A interface é interativa via terminal.
 
