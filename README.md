@@ -1,6 +1,29 @@
 O código em questão é um programa simples em C para gerenciar um "Caderno de Receitas". O objetivo é permitir que o usuário armazene, visualize, busque, adicione e remova receitas de culinária. Ele utiliza uma lista encadeada para armazenar as receitas e oferece as funcionalidades de salvar e carregar as receitas de/para um arquivo binário, para persistência dos dados.
 O sistema permite ao usuário adicionar receitas com seus ingredientes e modos de preparo, listar todas as receitas armazenadas, buscar por uma receita específica, remover receitas pelo nome e salvar ou carregar as receitas em/para um arquivo. A interface é interativa via terminal.
 
+O programa utiliza as seguintes bibliotecas da linguagem C:
+
+<stdio.h> (Standard Input/Output):
+
+A biblioteca stdio.h fornece funções para entrada e saída de dados. No código, ela é usada para funções como printf() (para imprimir mensagens no terminal) e fgets() (para ler entradas do usuário).
+
+<stdlib.h> (Standard Library):
+
+A biblioteca stdlib.h fornece funções para gerenciamento de memória dinâmica, controle de processos e conversões numéricas. No código, ela é usada para alocar e liberar memória para a estrutura Receita com a função malloc() e free().
+
+<string.h> (String Handling):
+
+A biblioteca string.h oferece funções para manipulação de strings em C. Ela é usada para copiar e concatenar strings no código.
+
+![image](https://github.com/user-attachments/assets/07606319-0cff-4e91-9a43-79ed0a30ae9d)
+
+
+Estrutura de Dados: Receita
+A estrutura central do programa é a estrutura Receita, que é utilizada para armazenar as informações de cada receita no sistema. A definição dessa estrutura é a seguinte:
+
+![image](https://github.com/user-attachments/assets/d0d5005d-b8ae-4007-a9cb-9beafa30c3c7)
+
+
 Funcionalidades do Programa
 Criação de uma Receita
 A função criarReceita é responsável por alocar memória e criar uma nova estrutura Receita. Ela recebe o nome, os ingredientes e o modo de preparo da receita, e retorna um ponteiro para a nova receita criada.
